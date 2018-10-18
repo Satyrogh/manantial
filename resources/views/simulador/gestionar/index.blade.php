@@ -1,6 +1,6 @@
 @extends ('layouts.admin')
 @section ('contenido')
-  <h3>Creación de un préstamo con cuotas, monto mínimo, monto máximo, gasto notarial y cantidad de cuotas</h3>
+  <h3>Creación de un préstamo con cuotas, monto mínimo, monto máximo, gasto notarial, cantidad de cuotas y tasa de interés mensual</h3>
   <div class="row">
   	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
   		<h3>Listado de Préstamos <a href="prestamo/crear">Nuevo</a></h3>
@@ -13,7 +13,7 @@
   			<table class="table table-striped table-bordered table-condensed table-hover">
   				<thead>
   					<th>Id</th>
-  					<th>Tasa de interes</th>
+  					<th>Tasa de interéss</th>
   					<th>Cuotas</th>
   					<th>Monto Mínimo</th>
   					<th>Monto Máximo</th>
